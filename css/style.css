@@ -1,0 +1,91 @@
+/*!
+*Hi there! I am CSS file!
+*/
+
+
+/*!
+*I choose black background beckose i like it more. Sorry.)
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 16px;
+	text-align: center;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.beef{
+	background-color: darkred;
+}
+
+.chicken {
+	background-color: yellow;
+	color: black;
+	}
+
+.Vegan {
+	background-color: greenyellow;
+	color: black;
+}
+
+.menu-item {
+	border: 1px solid white;
+	margin: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+.menu-name {
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	right: 0px;
+	border: solid 1px white;
+}
+
+.marpot {
+	margin-top: 30px;
+}
+
+/*****desktop******/
+
+@media (min-width: 992px) {
+	.desktop {
+		float: left;
+		width: 33.33%;
+	}
+
+}
+
+/*****tablet******/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.tablet {
+		float: left;
+		width: 50%;
+		display: blo;
+	}
+	.vegan {
+	width: 100%;
+}
+	
+}
+
+/*****mobile******/
+
+@media (max-width: 767px) {
+	.mobile {
+		margin-bottom: 32px;
+	}
+	
+}
+/*Bless!*/
