@@ -17,13 +17,12 @@ h1 {
 }
 
 body {
-	background-color: black;
-	color: white;
+	color: black;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .beef{
-	background-color: darkred;
+	background-color: red;
 }
 
 .chicken {
@@ -37,11 +36,12 @@ body {
 }
 
 .menu-item {
-	border: 1px solid white;
+	border: 1px solid black;
 	margin: 16px;
 	padding-left: 20px;
 	padding-right: 20px;
 	position: relative;
+	background-color: gray;
 }
 
 .menu-name {
@@ -49,7 +49,7 @@ body {
 	width: 100px;
 	text-align: center;
 	right: 0px;
-	border: solid 1px white;
+	border: solid 1px black;
 }
 
 .marpot {
@@ -72,7 +72,6 @@ body {
 	.tablet {
 		float: left;
 		width: 50%;
-		display: blo;
 	}
 	.vegan {
 	width: 100%;
@@ -88,4 +87,3 @@ body {
 	}
 	
 }
-/*Bless!*/
